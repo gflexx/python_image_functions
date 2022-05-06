@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+import os, argparse, math
+from PIL import Image, ImageOps
+
 def valid_image(file):
     # check if file is an image
     name, extention = os.path.splitext(file)
