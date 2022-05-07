@@ -8,4 +8,5 @@ uses Pillow<br>
 <p>py image_processor.py -a bw -f path/to/image.jpg</p>
 <h4>Options are:</h4>
 <p>bw - change to grayscale</p>
+<p>rd - compress image, lossless compression of about 19%</p>
 
